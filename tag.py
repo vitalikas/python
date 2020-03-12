@@ -1,4 +1,5 @@
 from tag_constructor import Tag
+
 with Tag("h1") as tag:
 	tag.text = "Hello"
 	tag.attributes["class"] = "my_amazing_class"
